@@ -1,34 +1,69 @@
+style
+    body {
+        width: 80%;
+        margin: 0;
+        background-color: rgb(2,2,36);
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        color: white;
+    }
 
-                body {
-                    width: 80%;
-                    margin: 0 auto;
-                    background-color: rgb(197, 248, 255);
-                    padding: 20px;
-                }
-                ul {
-                    background-color: #94c1f5;
-                    color: #fff;
-                    padding: 10px;
-                }
-                p {
-                    color: #96175d;
-                }
-                .white {
-                    color: #d4b6b6;
-                }
-                .italic{
-                    font-style: italic ;
-                }
-                .main-content {
-                    width: 70%;
-                    float: left;
-                    padding: 10px;
-                    background-color: #ddb1ad;
-                }
-                .inter{
-  font-family: "Cookie", cursive;
+    header {
+        background-color: #6788a9;
+        color: white;
+        padding: 40px;
+    }
+    
+    
+    p {
+        color: brown;
+        text-align: left;
+    }
+    
+    .places {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        width: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px;
+
+    }
+    
+    .card p {
+        text-align: left;
+        margin: 0;
+        width: 1000px;
+        height: 300px;
+    }
+
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
   font-weight: 400;
   font-style: normal;
-                }
+  color: bisque;
+  background-color: #2c3e50;
+}
 
-                
+footer {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #2c3e50;
+}
+.container {
+    flex: 1;
+}
