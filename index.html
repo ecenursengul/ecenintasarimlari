@@ -64,8 +64,31 @@
                         </div>
                 </div>
 <script src="script.js"></script>
+<div id="myElement">
+    <p>This is some initial content.</p>
+</div>
 
 
+    <script>
+        let myElement = document.getElementById('myElement');
+
+
+    myElement.innerHTML = '<p> New content added with innerHTML!</p>';
+      </script>
+
+<img id = "myImage" src = "three.svg" alt="Initial Image">
+<button onclick="changeImageSource()">Change Image Source</button>
+
+<script>
+    function changeImageSource() {
+        let myImage = document.getElementById('myImage');
+        let myImageSource = src = 'four.svg';
+        myImage.setAttribute('src', myImageSource);
+        myImage.setAttribute('alt', 'New Image Alt Text');
+    }
+</script>
+<p id="myParagraph">Tis is a paragraph.</p>
+<button onclick="addItalic()">Add Italic</button>
 
 
 
